@@ -5,14 +5,15 @@ stylish_settee_description = """Stylish Settee: Faux leather on birch. 29.50 inc
 stylish_settee_price = 185.50
 
 luxurious_lamp_description = """Luxurious Lamp: Glass and iron. 36 inches tall. Brown with cream shade. """
-luxrious_lamp_price = 52.12
+luxurious_lamp_price = 52.12
 
-sales_tax = .088 # sales tax is 8.8%
+sales_tax = .088
 
-customer_one_itemization = "1. " + lovely_loveseat_description  + "\n2. " + luxurious_lamp_description
+customer_one_total = lovely_loveseat_price + luxurious_lamp_price
 
-customer_one_total = 0
-customer_one_total += lovely_loveseat_price + luxrious_lamp_price + sales_tax
+customer_one_itemization = lovely_loveseat_description + luxurious_lamp_description
+customer_one_tax = customer_one_total * sales_tax
+customer_one_total += customer_one_tax
 
 print("Customer One Items: ")
 print(customer_one_itemization)
