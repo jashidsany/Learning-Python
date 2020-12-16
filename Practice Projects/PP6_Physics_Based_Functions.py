@@ -19,7 +19,7 @@ def get_energy(mass, c = 3*10**8):
   return mass * c**2
 
 def get_work(mass, acceleration, distance):
-  return get_force(train_mass, train_acceleration) * distance
+  return get_force(mass, acceleration) * distance
 
 f100_in_celsius = f_to_c(100)
 c0_in_fahrenheit = c_to_f(0)
