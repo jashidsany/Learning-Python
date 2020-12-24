@@ -34,4 +34,4 @@ def password_generator(first_name, last_name):
   return temp_password
 
 temp_password = password_generator(first_name, last_name)
-print(temp_password)
+print(temp_password
