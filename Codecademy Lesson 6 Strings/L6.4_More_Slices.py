@@ -15,7 +15,7 @@ print(len(fruit_sentence))
 # this will create an index error because the string only has 8 indicies
 # len(favorite_fruit) returns a index of 9
 
-last_char = favorite_fruit[len(favorite_fruit)-1]
+last_char = favorite_fruit[len(favorite_fruit)-1
 print(last_char)
 # => 'y'
 # you have to use the -1 index to access the final index
