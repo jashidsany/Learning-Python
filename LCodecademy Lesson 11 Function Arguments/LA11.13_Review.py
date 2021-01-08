@@ -1,5 +1,5 @@
 # We covered a lot of ground in this lesson! We learned all about how functions can accept different arguments and different styles by which we can pass those arguments in. We covered:
-# The default return of a function: Non
+# The default return of a function: None
 # How to create default arguments to a function
 # How to make sure our default arguments work the way we expect when dealing with lists.
 # How to pass keyword arguments to a function
