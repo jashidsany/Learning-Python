@@ -1,4 +1,4 @@
-from nile import get_distance, format_price, SHIPPING_PRICES
+from nile import get_distance, format_price, SHIPPING_PRICE
 from test import test_function
 
 # Define calculate_shipping_cost() here:
