@@ -1,3 +1,4 @@
+# This program takes 3 variables and outputs a boolean value based on what is true and what is false.
 stock = 600
 jeans_sold = 500
 target_hit = 500
