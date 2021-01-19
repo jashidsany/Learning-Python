@@ -1,3 +1,4 @@
+# This is a boolean light switch
 is_day = False
 lights_on = not is_day
 
