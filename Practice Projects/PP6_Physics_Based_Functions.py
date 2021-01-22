@@ -1,3 +1,4 @@
+# Uses arthmetic operators to add, divide, multiply and put integers to a certain power and prints out the output.
 train_mass = 22680
 train_acceleration = 10
 train_distance = 100
