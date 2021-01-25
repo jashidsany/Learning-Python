@@ -1,3 +1,4 @@
+# Uses control flow by way of if-else statements.
 ground_shipping_flat_charge = 20
 premium_ground_shipping = 125
 drone_shipping_flat_charge = 0
